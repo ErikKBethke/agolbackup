@@ -14,10 +14,16 @@ Backup script to backup items in ArcGIS Online
 
 ### What it does
 1. Logs you in to AGOL
-1. Searches for all items of type 'Feature Service' (limit: 500 - can be changed)
-1. For each search result, runs the export method on the item
-1. For each exported item, runs the download method on the exported item
-1. Deletes the exported item
+2. Searches for all items of type 'Feature Service' (limit: 500 - can be changed)
+3. For each search result, runs the export method on the item
+4. For each exported item, runs the download method on the exported item
+5. Deletes the exported item
 
 ## Requirements
 * [ArcGIS Python API](https://developers.arcgis.com/python/) (comes with ArcGIS Pro)
+
+## Updates
+* 12/12/2019: Added setup automation
+
+## To-Do
+* Add dynamic installation options for: download location, users, etc.
