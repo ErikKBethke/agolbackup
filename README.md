@@ -1,5 +1,10 @@
 # ArcGIS Online backup for python3
 
+## Installation
+Currently, the easiest way to install is from its ([source](https://github.com/ErikKBethke/tableau-workbook-xml)) on Github:
+
+`pip install git+https://github.com/ErikKBethke/agolbackup`
+
 ## Disclaimer
 This software is supplied "AS IS" without any warranties and support.
 

@@ -16,7 +16,7 @@ setup(name='agolbackup',
       tests_require=['nose'],
       keywords='tableau xml workbook',
       include_package_data=True,
-      packages=['tableauxml'],
+      packages=['agolbackup'],
       install_requires=[
       'lxml',
     ],
